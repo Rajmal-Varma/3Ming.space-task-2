@@ -16,6 +16,8 @@ const StreamPage = () => {
         </p>
       </div>
 
+      
+
       <div className="grid xl:grid-cols-4 xl:ml-14 mt-6">
         <div className="order-4 xl:order-1 ml-2">
           <h1 className=" animate-text bg-gradient-to-s from-lime-500 via-purple-500 to-rose-500 bg-clip-text text-transparent text-[85px] font-bold">
