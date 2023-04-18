@@ -21,16 +21,16 @@ const StreamPage = () => {
 
  </div>
 
- <div className="ml-[-8rem]">
+ <div className="ml-[-40%]">
 
-  <img src={Imag1} alt="" className="  col-start-1 col-span-2 row-span-3  w-[990px] h-[500px] "/>
+  <img src={Imag1} alt="" className="  col-start-1 col-span-2 row-span-3  w-[990px] h-[540px] "/>
 </div>
 
 
 
-<div className="row-span-2 relative pt-[-10rem]">
+<div className="row-span-2 relative pt-[-10rem] w-[600px] top-[-15%] rounded-2xl ">
 <div className="  top-[89%] rounded-3xl ml-14 ">
-<img src={Imag2} alt="" className=" w-[540px] h-[400px] rounded-2xl "/>
+<img src={Imag2} alt="" className=" w-[600px] h-[400px] rounded-2xl "/>
 <p className="text-white text-center justify-center">Earning section</p>
 </div>
 
@@ -42,8 +42,8 @@ const StreamPage = () => {
 
 </div>
 
-<div className="row-span-2 w-[740px] top-[-55%] left-[-10%]">
-                    <ul className=" text-white list-disc text-3xl leading-15 font-medium">
+<div className="row-span-2 w-[720px] my-4 py-4 ml-[-5%]">
+                    <ul className=" text-white text-3xl leading-15 font-medium list-disc">
 
                     <li className="mb-6"><span className="text-cyan-400">3ming.space </span>is a web3 streamig plateform that allows creators to earn money through thier content. </li>
                         <li className="my-6 py-6"> The platform is designed to be user-friendly and accessible to all creators, regardless of their experience with cryptocurrencies.  </li>
