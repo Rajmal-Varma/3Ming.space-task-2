@@ -14,7 +14,7 @@ const StreamPage = () => {
 
 
 
-  <div className="grid md:grid-cols-2 md:grid-rows-3 gap-4 sm:gap-0 ">
+  <div className="grid grid-cols-2 grid-rows-2 sm:grid-cols-1">
 
 <div className="">
   <h1 className=' animate-text bg-gradient-to-s from-lime-500 via-purple-500 to-rose-500 bg-clip-text text-transparent text-[70px] font-bold row-span-2 ml-14 py-6 mt-4 '>Play.<br/> Watch.<br/> Stream.</h1>
@@ -23,12 +23,12 @@ const StreamPage = () => {
 
  <div className="ml-[-40%]">
 
-  <img src={Imag1} alt="" className="  col-start-1 col-span-2 row-span-3  w-[990px] h-[540px] "/>
+  <img src={Imag1} alt="" className=" w-[990px] h-[540px] "/>
 </div>
 
 
 
-<div className="row-span-2 relative pt-[-10rem] w-[600px] top-[-15%] rounded-2xl ">
+<div className="relative pt-[-10rem] w-[600px] top-[-45%] rounded-2xl ">
 <div className="  top-[89%] rounded-3xl ml-14 ">
 <img src={Imag2} alt="" className=" w-[600px] h-[400px] rounded-2xl "/>
 <p className="text-white text-center justify-center">Earning section</p>
