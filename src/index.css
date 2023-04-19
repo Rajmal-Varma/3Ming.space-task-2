@@ -9,13 +9,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    background: #252424;
+    
+}
+
+body{
+    background-color: #1b1818;
 }
 
 @layer base {
-    h1{
-        @apply bg-gradient-to-r from-emerald-300 from-5% via-sky-500 via-30% via-purple-900 via-5% via-blue-600 via-10%  to-red-500 to-100% inline-block text-transparent bg-clip-text
+    html{
+        @apply scroll-smooth
     }
+   
 }
 
 

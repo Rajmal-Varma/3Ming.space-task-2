@@ -3,10 +3,9 @@ import StreamPage from "./StreamPage";
 
 function App() {
   return (
-    <>
+    <div>
    <StreamPage/>
-  
-    </>
+    </div>
   );
 }
 
