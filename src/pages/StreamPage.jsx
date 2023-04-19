@@ -1,13 +1,16 @@
 import React from "react";
-import Imag1 from "../src/assest/pic1.png";
-import Imag2 from "../src/assest/pic 2.png";
-import Imag3 from "../src/assest/pic 3.png";
+
+import Imag1 from "../assest/pic1.png";
+import Imag2 from "../assest/pic 2.png"
+import Imag3 from "../assest/pic 3.png"
 
 const StreamPage = () => {
   return (
-    <div className=" w-full h-full m-4">
-      <div className="flex items-start xl:items-center flex-col w-[480px] xl:w-[1500px] justify-center">
-        <h1 className="bg-gradient-to-r from-lime-500 via-blue-500  to-rose-500 bg-clip-text text-transparent text-6xl font-[800] py-4 my-2 ">
+    <>
+    
+    <div className=" w-full h-full mx-auto xl:bg-[#141414]  bg-[#141414]">
+      <div className="flex items-start xl:items-center flex-col w-[480px] xl:w-[1500px]  justify-center">
+        <h1 className="bg-gradient-to-r from-lime-500 via-blue-500  to-rose-500 bg-clip-text text-transparent text-6xl font-[800] py-4 my-2 md:text-center ">
           Coming Soon
         </h1>
         <p className="text-white font-[600] xl:text-center text-start text-3xl my-6">
@@ -18,7 +21,7 @@ const StreamPage = () => {
 
       
 
-      <div className="grid xl:grid-cols-4 xl:ml-14 mt-6">
+      <div className="grid xl:grid-cols-4 xl:ml-14 mt-6 ">
         <div className="order-4 xl:order-1 ml-2">
           <h1 className=" animate-text bg-gradient-to-s from-lime-500 via-purple-500 to-rose-500 bg-clip-text text-transparent text-[85px] font-bold">
             Play.
@@ -26,14 +29,14 @@ const StreamPage = () => {
             <br /> Stream.
           </h1>
         </div>
-        <div className="xl:col-span-3 xl:row-span-2 order-2 xl:order-2">
+        <div className="xl:col-span-3 xl:row-span-2   order-2 xl:order-2">
           <img src={Imag1} alt="" className="xl:w-[1010px] w-[480px]" />
         </div>
-        <div className="xl:col-span-2 xl:mt-[-190px] w-[520px] rounded-2xl order-3 mt-10">
+        <div className="xl:col-span-2 xl:mt-[-190px]   w-[520px] rounded-2xl order-3 mt-10">
           <img src={Imag2} alt="" className="xl:w-[520px] w-[480px] rounded-2xl"/>
           <p className="text-white hidden text-center py-2 xl:block">Earning Section</p>
         </div>
-        <div className=" xl:row-start-4 xl:col-span-2 xl:mt-[-190px] pb-[45px] rounded-2xl xl:order-4">
+        <div className=" xl:row-start-4 xl:col-span-2  xl:mt-[-190px] pb-[45px] rounded-2xl xl:order-4">
           <img src={Imag3} alt="" className="xl:w-[520px] w-[480px] rounded-2xl"/>
         </div>
 
@@ -57,6 +60,8 @@ const StreamPage = () => {
         </div>
       </div>
     </div>
+ 
+    </>
   );
 };
 export default StreamPage;

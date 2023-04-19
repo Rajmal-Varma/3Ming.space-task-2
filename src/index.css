@@ -4,12 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    background: #252424;
+    background: #000000;
 }
 
 @layer base {
