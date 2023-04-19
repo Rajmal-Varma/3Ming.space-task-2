@@ -21,7 +21,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
            {!nav ? <FaBars size={30} /> : <FaTimes size={30} />}
          </div>
          <div>
-          <img src={Logo} alt="LogoImage" style={{width:'220px' }} className="xl:ml-4 mr-24 pr-12 xl:mr-0 xl:pr-0 "/>
+          <img src={Logo} alt="LogoImage" style={{width:'220px' }} className="xl:ml-4 mr-20 pr-12 xl:mr-0 xl:pr-0 "/>
          </div>
          
          {/* Menu */}
